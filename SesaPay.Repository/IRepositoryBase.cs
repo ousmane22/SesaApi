@@ -10,7 +10,7 @@ namespace SesaPay.Repository
     public interface IRepositoryBase<T>
     {
         IEnumerable<T> GetAll();
-        DataModels.Partners.Partner Get(int id );
+        T Get(int id );
 
         void Delete(int t);
         void Create(T t);

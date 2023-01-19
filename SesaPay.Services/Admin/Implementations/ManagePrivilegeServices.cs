@@ -3,7 +3,6 @@ using SesaPay.DataModels.Partners;
 using SesaPay.Repository.Admin.Interfaces;
 using SesaPay.Services.Admin.Interfaces;
 using SesaPay.ViewModels.Admin;
-using SesaPay.ViewModels.Partner;
 using System;
 using System.Collections.Generic;
 using System.Linq;

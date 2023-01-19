@@ -3,7 +3,6 @@ using SesaPay.DataModels;
 using SesaPay.DataModels.Admin;
 using SesaPay.DataModels.Partners;
 using SesaPay.Repository.Partner.Interface;
-using SesaPay.ViewModels.Partner;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -19,33 +18,33 @@ namespace SesaPay.Repository.Partner.Implementation
             _sesaPayContext = sesaPayContext;
         }
 
-        public void Create(DataModels.Partners.Partner t)
+        public void Create(Partner_Tbl t)
         {
-            _sesaPayContext.tbl_Partners.Add(t);
+            _sesaPayContext.Partners.Add(t);
             _sesaPayContext.SaveChanges();
         }
 
         public void Delete(int t)
         {
-            var partner = _sesaPayContext.tbl_Partners.FirstOrDefault(x=>x.Id == t); 
-            _sesaPayContext.tbl_Partners.Remove(partner);
+            var partner = _sesaPayContext.Partners.FirstOrDefault(x=>x.Id == t); 
+            _sesaPayContext.Partners.Remove(partner);
             _sesaPayContext.SaveChanges();
         }
 
-        public DataModels.Partners.Partner Get(int id)
+        public Partner_Tbl Get(int id)
         {
-          return  _sesaPayContext.tbl_Partners.FirstOrDefault(x=>x.Id == id);
+          return  _sesaPayContext.Partners.FirstOrDefault(x=>x.Id == id);
         }
 
-        public IEnumerable<DataModels.Partners.Partner> GetAll()
+        public IEnumerable<Partner_Tbl> GetAll()
         {
-            return _sesaPayContext.tbl_Partners.ToList();
+            return _sesaPayContext.Partners.ToList();
         }
 
-        public void UpdateT(DataModels.Partners.Partner t)
+        public void UpdateT(Partner_Tbl t)
         {
-            
-            _sesaPayContext.tbl_Partners.Update(t);
+
+            _sesaPayContext.Entry(t).State = EntityState.Modified;
             _sesaPayContext.SaveChanges();
         }
 

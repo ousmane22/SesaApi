@@ -2,7 +2,7 @@
 using SesaPay.DataModels.Admin;
 using SesaPay.DataModels.Partners;
 using SesaPay.ViewModels.Admin;
-using SesaPay.ViewModels.Partner;
+using SesaPay.ViewModels.Partners;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +16,10 @@ namespace SesaPay.DataModels
         public MapperProfile()
         {
             CreateMap<City, tbl_cities>();
-            CreateMap<PartnerDto, Partner>();
+            CreateMap<PartnerDto, Partner_Tbl>();
 
             CreateMap<tbl_cities, City>();
-            CreateMap<Partner, PartnerDto>();
+            CreateMap<Partner_Tbl, PartnerDto>();
         }
     }
 }

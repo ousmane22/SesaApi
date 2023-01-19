@@ -1,5 +1,5 @@
 ﻿using SesaPay.DataModels.Partners;
-using SesaPay.ViewModels.Partner;
+using SesaPay.ViewModels.Partners;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SesaPay.Services.Partner.Interfaces
 {
-    public interface IPartnerService:IServiceBase<PartnerModel> 
+    public interface IPartnerService:IServiceBase<PartnerDto> 
     {
         /*IEnumerable<PartnerModel>  GetPartners();*/
        /* IEnumerable<tbl_partner> GetPartners();
