@@ -19,7 +19,7 @@ namespace SesaPay.Repository.Partner.Implementation
             _sesaPayContext = sesaPayContext;
         }
 
-        public void Create(tbl_partner t)
+        public void Create(DataModels.Partners.Partner t)
         {
             _sesaPayContext.tbl_Partners.Add(t);
             _sesaPayContext.SaveChanges();
@@ -32,18 +32,19 @@ namespace SesaPay.Repository.Partner.Implementation
             _sesaPayContext.SaveChanges();
         }
 
-        public tbl_partner Get(int id)
+        public DataModels.Partners.Partner Get(int id)
         {
           return  _sesaPayContext.tbl_Partners.FirstOrDefault(x=>x.Id == id);
         }
 
-        public IEnumerable<tbl_partner> GetAll()
+        public IEnumerable<DataModels.Partners.Partner> GetAll()
         {
             return _sesaPayContext.tbl_Partners.ToList();
         }
 
-        public void UpdateT(tbl_partner t)
+        public void UpdateT(DataModels.Partners.Partner t)
         {
+            
             _sesaPayContext.tbl_Partners.Update(t);
             _sesaPayContext.SaveChanges();
         }

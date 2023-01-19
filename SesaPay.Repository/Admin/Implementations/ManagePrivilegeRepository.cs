@@ -18,7 +18,7 @@ namespace SesaPay.Repository.Admin.Implementations
             _sesaPayContext = sesaPayContext;
         }
 
-        public Task<int> AddPartner(tbl_partner partner)
+        public Task<int> AddPartner(DataModels.Partners.Partner partner)
         {
             _sesaPayContext.Add(partner);
             _sesaPayContext.SaveChanges();

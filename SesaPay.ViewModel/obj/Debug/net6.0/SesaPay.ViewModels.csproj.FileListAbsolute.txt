@@ -38,3 +38,17 @@ C:\Users\OUSMANE\Desktop\SesaPay\SesaApiProject\SesaPay\SesaPay.ViewModel\obj\De
 C:\Users\OUSMANE\Desktop\SesaPay\SesaApiProject\SesaPay\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.pdb
 C:\Users\OUSMANE\Desktop\SesaPay\SesaApiProject\SesaPay\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.genruntimeconfig.cache
 C:\Users\OUSMANE\Desktop\SesaPay\SesaApiProject\SesaPay\SesaPay.ViewModel\obj\Debug\net6.0\ref\SesaPay.ViewModels.dll
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\bin\Debug\net6.0\SesaPay.ViewModels.deps.json
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\bin\Debug\net6.0\SesaPay.ViewModels.runtimeconfig.json
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\bin\Debug\net6.0\SesaPay.ViewModels.dll
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\bin\Debug\net6.0\SesaPay.ViewModels.pdb
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.AssemblyInfo.cs
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.dll
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\refint\SesaPay.ViewModels.dll
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.pdb
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\SesaPay.ViewModels.genruntimeconfig.cache
+C:\Users\HP\Desktop\SesaApiProject\SesaApi\SesaPay.ViewModel\obj\Debug\net6.0\ref\SesaPay.ViewModels.dll

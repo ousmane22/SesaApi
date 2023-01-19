@@ -1073,19 +1073,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OUSMANE\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj",
       "projectName": "SesaPay.ViewModels",
-      "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj",
-      "packagesPath": "C:\\Users\\OUSMANE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\OUSMANE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1146,7 +1146,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace SesaPay.DataModels.Partners
 {
+    
     public class tbl_partner:IEntityBase
     {
         [Key]
@@ -32,5 +33,14 @@ namespace SesaPay.DataModels.Partners
 
         [Column("partner_password")]
         public string? Password { get; set; }
+
+        [Column("created_at")]
+        public DateTime CreatedAt { get; set; }
+
+        [Column("updated_at")]
+        public DateTime UpdatedAt { get; set; }
+
+        [Column("delete_at")]
+        public DateTime DeleteAt { get; set; }
     }
 }

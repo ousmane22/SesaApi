@@ -57,9 +57,9 @@ namespace SesaPay.API.Controllers.PartnerPanel
 
         [HttpPut]
         [Route("update/partner/{id}")]
-        public IActionResult UpdatePartners(int id,PartnerModel partner)
+        public IActionResult UpdatePartners(PartnerModel partner)
         {
-            var _partner = _partnerService.Get(id);
+         
             _partnerService.UpdateTT(partner);
             return Ok(partner);
         }

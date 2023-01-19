@@ -7,8 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Adherent\" />
+    <Folder Include="Contract\" />
+    <Folder Include="Contribution\" />
     <Folder Include="Customer\" />
     <Folder Include="Bank\" />
+    <Folder Include="InsuranceType\" />
+    <Folder Include="PartnerServiceProvider\" />
+    <Folder Include="PartnerService\" />
+    <Folder Include="Refund\" />
+    <Folder Include="ServiceProviderType\" />
+    <Folder Include="ServiceProvider\" />
     <Folder Include="Till\" />
   </ItemGroup>
 

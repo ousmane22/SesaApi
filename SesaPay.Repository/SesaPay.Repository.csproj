@@ -7,10 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Adherent\" />
+    <Folder Include="Bank\" />
     <Folder Include="Bank\Implementations\" />
     <Folder Include="Bank\Interfaces\" />
+    <Folder Include="Contract\" />
+    <Folder Include="Contribution\" />
+    <Folder Include="Customer\" />
     <Folder Include="Customer\Implementations\" />
     <Folder Include="Customer\Interfaces\" />
+    <Folder Include="InsuranceType\" />
+    <Folder Include="PartnerServiceProvider\" />
+    <Folder Include="PartnerService\" />
+    <Folder Include="Refund\" />
+    <Folder Include="ServiceProviderType\" />
+    <Folder Include="ServiceProvider\" />
     <Folder Include="Till\Implementations\" />
     <Folder Include="Till\Interfaces\" />
   </ItemGroup>

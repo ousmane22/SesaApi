@@ -14,8 +14,8 @@ namespace SesaPay.DataModels
         public SesaPayContext(DbContextOptions<SesaPayContext> options) : base(options)
         {
         }
-        public DbSet<tbl_cities>  tbl_Cities { get; set; }
-        public DbSet<tbl_partner>  tbl_Partners { get; set; }
+        public DbSet<tbl_cities> tbl_Cities { get; set; } 
+        public DbSet<Partner>  Partners { get; set; }
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -6,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SesaPay.DataModels.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class firstmigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -46,7 +47,10 @@ namespace SesaPay.DataModels.Migrations
                     partnerphonecode = table.Column<int>(name: "partner_phone_code", type: "int", nullable: false),
                     partnermobilenumber = table.Column<int>(name: "partner_mobile_number", type: "int", nullable: false),
                     partnerpassword = table.Column<string>(name: "partner_password", type: "longtext", nullable: true)
-                        .Annotation("MySql:CharSet", "utf8mb4")
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    createdat = table.Column<DateTime>(name: "created_at", type: "datetime(6)", nullable: false),
+                    updatedat = table.Column<DateTime>(name: "updated_at", type: "datetime(6)", nullable: false),
+                    deleteat = table.Column<DateTime>(name: "delete_at", type: "datetime(6)", nullable: false)
                 },
                 constraints: table =>
                 {

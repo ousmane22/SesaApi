@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SesaPay.Repository.Partner.Interface
 {
-    public interface IPartnerRepository:IRepositoryBase<tbl_partner>
+    public interface IPartnerRepository:IRepositoryBase<DataModels.Partners.Partner>
     {
         
     }

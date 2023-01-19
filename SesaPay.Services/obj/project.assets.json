@@ -1274,19 +1274,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OUSMANE\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\SesaPay.Services.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.Services\\SesaPay.Services.csproj",
       "projectName": "SesaPay.Services",
-      "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\SesaPay.Services.csproj",
-      "packagesPath": "C:\\Users\\OUSMANE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.Services\\SesaPay.Services.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\OUSMANE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1300,11 +1300,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\SesaPay.Repository.csproj": {
-              "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\SesaPay.Repository.csproj"
+            "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.Repository\\SesaPay.Repository.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.Repository\\SesaPay.Repository.csproj"
             },
-            "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj"
+            "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\SesaApiProject\\SesaApi\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj"
             }
           }
         }
@@ -1354,7 +1354,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

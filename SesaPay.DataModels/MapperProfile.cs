@@ -15,8 +15,11 @@ namespace SesaPay.DataModels
     {
         public MapperProfile()
         {
+            CreateMap<City, tbl_cities>();
+            CreateMap<PartnerDto, Partner>();
+
             CreateMap<tbl_cities, City>();
-            CreateMap<tbl_partner, PartnerModel>();
+            CreateMap<Partner, PartnerDto>();
         }
     }
 }
