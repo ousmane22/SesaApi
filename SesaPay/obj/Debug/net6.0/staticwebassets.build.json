@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zIEEgDnlNZa6NwZljFS9JSWYvgqISiQ3hLpQmWlPk3A=",
+  "Source": "SesaPay.API",
+  "BasePath": "_content/SesaPay.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

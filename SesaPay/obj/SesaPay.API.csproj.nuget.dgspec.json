@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay\\SesaPay.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.DataModels\\SesaPay.DataModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.DataModels\\SesaPay.DataModels.csproj",
+        "projectName": "SesaPay.DataModels",
+        "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.DataModels\\SesaPay.DataModels.csproj",
+        "packagesPath": "C:\\Users\\OUSMANE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.DataModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OUSMANE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\SesaPay.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\SesaPay.Repository.csproj",
+        "projectName": "SesaPay.Repository",
+        "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\SesaPay.Repository.csproj",
+        "packagesPath": "C:\\Users\\OUSMANE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OUSMANE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.DataModels\\SesaPay.DataModels.csproj": {
+                "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.DataModels\\SesaPay.DataModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\SesaPay.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\SesaPay.Services.csproj",
+        "projectName": "SesaPay.Services",
+        "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\SesaPay.Services.csproj",
+        "packagesPath": "C:\\Users\\OUSMANE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OUSMANE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\SesaPay.Repository.csproj": {
+                "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Repository\\SesaPay.Repository.csproj"
+              },
+              "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj",
+        "projectName": "SesaPay.ViewModels",
+        "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\SesaPay.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\OUSMANE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OUSMANE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay\\SesaPay.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay\\SesaPay.API.csproj",
+        "projectName": "SesaPay.API",
+        "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay\\SesaPay.API.csproj",
+        "packagesPath": "C:\\Users\\OUSMANE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OUSMANE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\SesaPay.Services.csproj": {
+                "projectPath": "C:\\Users\\OUSMANE\\Desktop\\SesaPay\\SesaApiProject\\SesaPay\\SesaPay.Services\\SesaPay.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

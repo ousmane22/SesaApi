@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SesaPay.API": {
+      "commandName": "Project",
+      "launchBrowser": true
+    }
+  }
+}

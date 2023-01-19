@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SesaPay.API", "SesaPay\SesaPay.API.csproj", "{C7CD1426-5083-45CB-8853-1DE3FFDC0AED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SesaPay.Services", "SesaPay.Services\SesaPay.Services.csproj", "{36E7C149-2430-4265-AB16-B4477B5DE4AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SesaPay.Repository", "SesaPay.Repository\SesaPay.Repository.csproj", "{A04D4D5E-50FE-47A1-955A-590220E5214C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SesaPay.DataModels", "SesaPay.DataModels\SesaPay.DataModels.csproj", "{05D012F0-0A8E-4DF4-B506-F379ED40B959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SesaPay.ViewModels", "SesaPay.ViewModel\SesaPay.ViewModels.csproj", "{1D2CB849-B4F4-4273-BE13-1812F61B13C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7CD1426-5083-45CB-8853-1DE3FFDC0AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CD1426-5083-45CB-8853-1DE3FFDC0AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CD1426-5083-45CB-8853-1DE3FFDC0AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CD1426-5083-45CB-8853-1DE3FFDC0AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E7C149-2430-4265-AB16-B4477B5DE4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E7C149-2430-4265-AB16-B4477B5DE4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E7C149-2430-4265-AB16-B4477B5DE4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E7C149-2430-4265-AB16-B4477B5DE4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04D4D5E-50FE-47A1-955A-590220E5214C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04D4D5E-50FE-47A1-955A-590220E5214C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04D4D5E-50FE-47A1-955A-590220E5214C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04D4D5E-50FE-47A1-955A-590220E5214C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D012F0-0A8E-4DF4-B506-F379ED40B959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D012F0-0A8E-4DF4-B506-F379ED40B959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D012F0-0A8E-4DF4-B506-F379ED40B959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D012F0-0A8E-4DF4-B506-F379ED40B959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2CB849-B4F4-4273-BE13-1812F61B13C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2CB849-B4F4-4273-BE13-1812F61B13C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2CB849-B4F4-4273-BE13-1812F61B13C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2CB849-B4F4-4273-BE13-1812F61B13C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C27F373-B14B-403B-AB11-9A8808B0A239}
+	EndGlobalSection
+EndGlobal
