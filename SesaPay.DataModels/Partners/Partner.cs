@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace SesaPay.DataModels.Partners
 {
-    [Table("tbl_partners")]
-    public class Partner_Tbl:IEntityBase
+    
+    public class tbl_partner:IEntityBase
     {
         [Key]
         [Column("partner_id")]

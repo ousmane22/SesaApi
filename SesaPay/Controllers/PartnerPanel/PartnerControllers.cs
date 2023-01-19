@@ -3,7 +3,7 @@ using SesaPay.DataModels.Partners;
 using SesaPay.Repository.Partner.Interface;
 using SesaPay.Services.Admin.Interfaces;
 using SesaPay.Services.Partner.Interfaces;
-using SesaPay.ViewModels.Partners;
+using SesaPay.ViewModels.Partner;
 
 namespace SesaPay.API.Controllers.PartnerPanel
 {
@@ -13,7 +13,7 @@ namespace SesaPay.API.Controllers.PartnerPanel
     {
         private readonly IPartnerService _partnerService;
 
-
+      
         public PartnerControllers(IPartnerService partnerService)
         {
             _partnerService = partnerService;
@@ -22,18 +22,18 @@ namespace SesaPay.API.Controllers.PartnerPanel
 
         [HttpGet]
         [Route("partners")]
-        public IActionResult GetPartners()
+        public  IActionResult GetPartners()
         {
-            var partners = _partnerService.GetAlls();
-            return Ok(partners);
+          var partners = _partnerService.GetAlls();
+          return Ok(partners);
         }
 
         [HttpPost]
         [Route("addPartner")]
-        public IActionResult CreatePartners(PartnerDto partner)
+       public IActionResult CreatePartners(PartnerModel partner)
         {
-            _partnerService.Created(partner);
-            return Ok(partner);
+          _partnerService.Created(partner);
+          return Ok(partner);
         }
 
         [HttpDelete]
@@ -48,21 +48,18 @@ namespace SesaPay.API.Controllers.PartnerPanel
 
         [HttpGet]
         [Route("getPartner/{id}")]
-        public IActionResult GetPartner(int id)
+        public  IActionResult GetPartner(int id)
         {
             var p = _partnerService.Get(id);
             return Ok(p);
         }
 
 
-        [HttpPut("update/{id}")]
-       
-        public IActionResult UpdatePartners(int id ,PartnerDto partner)
+        [HttpPut]
+        [Route("update/partner/{id}")]
+        public IActionResult UpdatePartners(PartnerModel partner)
         {
-            if(id != partner.Id)
-            {
-                return BadRequest();
-            }
+         
             _partnerService.UpdateTT(partner);
             return Ok(partner);
         }

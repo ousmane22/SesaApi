@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace SesaPay.DataModels.Adherent
 {
     [Table("tbl_adherents")]
-    public class Adherent:IEntityBase
+    public class Partner:IEntityBase
     {
         [Column("adherent_id")]
 

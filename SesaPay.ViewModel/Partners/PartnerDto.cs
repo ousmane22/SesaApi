@@ -1,7 +1,7 @@
-﻿namespace SesaPay.ViewModels.Partners
+﻿namespace SesaPay.ViewModels.Partner
 {
    
-    public class PartnerDto
+    public class PartnerModel
     {
         public int Id { get; set; }
 

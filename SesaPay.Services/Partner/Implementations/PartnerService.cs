@@ -4,7 +4,7 @@ using SesaPay.DataModels.Partners;
 using SesaPay.Repository.Partner.Interface;
 using SesaPay.Services.Partner.Interfaces;
 using SesaPay.ViewModels.Admin;
-using SesaPay.ViewModels.Partners;
+using SesaPay.ViewModels.Partner;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -25,9 +25,9 @@ namespace SesaPay.Services.Partner.Implementations
             _mapper = mapper;
         }
 
-        public void Created(PartnerDto t)
+        public void Created(PartnerModel t)
         {
-            var partner = _mapper.Map<Partner_Tbl>(t);
+            var partner = _mapper.Map<tbl_partner>(t);
             _partnerRepository.Create(partner);
         }
 
@@ -37,21 +37,21 @@ namespace SesaPay.Services.Partner.Implementations
             _partnerRepository.Delete(id);
         }
 
-        public PartnerDto Get(int id)
-        {
-          var  partner = _partnerRepository.Get(id);
-           return _mapper.Map<PartnerDto>(partner);
+        public PartnerModel Get(int id)
+        { 
+           tbl_partner partner =  _partnerRepository.Get(id);
+           return _mapper.Map<PartnerModel>(partner);
         }
 
-        public List<PartnerDto> GetAlls()
+        public List<PartnerModel> GetAlls()
         {
             var partners = _partnerRepository.GetAll();
-            return _mapper.Map<List<PartnerDto>>(partners);
+            return _mapper.Map<List<PartnerModel>>(partners);
         }
 
-        public void UpdateTT(PartnerDto t)
+        public void UpdateTT(PartnerModel t)
         {
-            var p = _mapper.Map<Partner_Tbl>(t);
+            var p = _mapper.Map<tbl_partner>(t);
             _partnerRepository.UpdateT(p);
 
         }

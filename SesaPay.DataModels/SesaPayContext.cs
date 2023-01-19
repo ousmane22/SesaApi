@@ -15,7 +15,7 @@ namespace SesaPay.DataModels
         {
         }
         public DbSet<tbl_cities> tbl_Cities { get; set; } 
-        public DbSet<Partner_Tbl>  Partners { get; set; }
+        public DbSet<Partner>  Partners { get; set; }
 
     }
 }

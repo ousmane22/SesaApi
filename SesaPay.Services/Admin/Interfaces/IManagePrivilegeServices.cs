@@ -1,5 +1,6 @@
 ﻿using SesaPay.DataModels.Partners;
 using SesaPay.ViewModels.Admin;
+using SesaPay.ViewModels.Partner;
 using System;
 using System.Collections.Generic;
 using System.Linq;
